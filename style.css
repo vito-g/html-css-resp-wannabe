@@ -1,3 +1,8 @@
+* {
+  box-sizing:border-box;
+  padding: 0;
+}
+
 .row {
   width: 992px;
   margin-left: auto;
@@ -81,6 +86,7 @@ img {
     } */
     .row {
       width: 100%;
+      padding: 0 30px;
       margin-left: 0;
       margin-right: 0;
       margin-top: 50px;
@@ -90,7 +96,7 @@ img {
     #lezioni .row>.left,
     #lezioni .row>.right {
       width: 100%;
-      margin-bottom: 80px;
+      margin-bottom: 40px;
     }
 
     #lezioni .row>.right img {
@@ -105,5 +111,6 @@ img {
       width: 100%;
       margin-bottom: 80px;
     }
+
 
 }
