@@ -81,9 +81,7 @@ img {
 
 /* Media query */
 @media screen and (max-width: 420px) {
-    /* img {
-      border: 1px solid red;
-    } */
+
     .row {
       width: 100%;
       padding: 0 30px;
@@ -92,16 +90,10 @@ img {
       margin-top: 50px;
     }
 
-
     #lezioni .row>.left,
     #lezioni .row>.right {
       width: 100%;
       margin-bottom: 40px;
-    }
-
-    #lezioni .row>.right img {
-      /* border: 1px solid red; */
-
     }
 
     #steps .row>.left,
@@ -111,6 +103,15 @@ img {
       width: 100%;
       margin-bottom: 80px;
     }
+
+    #steps .row, #why .row {
+      padding-top: 10px;
+    }
+
+    body {
+      font-family: sans-serif;
+    }
+
 
 
 }
